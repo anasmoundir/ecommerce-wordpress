@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*
+Theme Name: Boutique Garment Store
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-boutique-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: If you are a boutique owner planning to take your business online and need a theme to do so, the Boutique Garment Store WordPress Theme is the right choice for you. The theme is designed especially for a boutique clothing store. It has an appealing layout that allows you to showcase your products in the best possible light. It also provides an easy-to-use platform for your customers to navigate. Boutique Garment Store comes with all the necessary features and functionalities to help you create a stunning website. One doesn’t need to have a web development background to create a website as this theme is easy to install and use. You can create and launch a website in just a few clicks and minutes. Furthermore, this theme is fully responsive and cross-browser compatible. Meaning, your website will look stunning on all devices no matter what the screen size or web browser is. It is also compatible with the popular plugin WooCommerce which helps in turning your store into an online store so you can even sell your products online. The theme also comes with many important features such as retina-readiness, clean codes, SEO-friendliness, and much more. It is also translation ready and can translate the text on your website into multiple local and international languages to help your visitors navigate in the comfort of their preferred language.
+Version: 0.2
+Tested up to: 5.8
+Requires PHP: 7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: digital-storefront
+Text Domain: boutique-garment-store
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, food-and-drink
+
+Boutique Garment Store WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Boutique Garment Store WordPress Theme is released under the terms of GNU GPL
+*/
+
+span.cart-value, .sidebar h5, .comment-respond input#submit, #button, .sidebar input[type="submit"], .sidebar button[type="submit"], #colophon, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .main-navigation .sub-menu, .wp-block-button__link, .about-inner-box a, .pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce .woocommerce-ordering select, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, #top-slider button.owl-next:hover, #top-slider button.owl-prev:hover, .toggle-nav i,.sidebar .tagcloud a:hover{
+    background: #00c9d0;
+}
+a, .social-link i:hover, .article-box a, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .sidebar ul li a:hover, .widget a:hover, .widget a:focus{
+    color: #212529;
+}
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #00c9d0 !important;
+}
+
+#top-slider button.owl-next, #top-slider button.owl-prev,.slider-inner-box a:hover, .about-inner-box a:hover,#button:hover, #button:active,.pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #1d1d1d;
+}
+h1, h2, h3, h4, h5, h6,.top-info p, .social-link span,.navbar-brand a{
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+}
+.slider-inner-box a,.slider-inner-box h1{
+  color: #212529;
+}
+.serv-box h4 a{
+  color: #212529;
+  font-weight: 700;
+}
+#top-slider {
+    position: relative;
+}
+.product-asset i{
+  color: #212529;
+  font-size: 16px;
+}
+.slider-inner-box{
+  top: 50%;
+}
+span.woocommerce-Price-amount.amount bdi,del {
+    color: #000;
+}
+.social-link i{
+  color: #ffffff;
+}
+.product-asset form.woocommerce-product-search{
+  position: relative;
+}
+.product-asset button{
+  right: 15px;
+}
+
+.slider-inner-box a{
+    background: #fff;
+}
+.slider-inner-box a:hover{
+    color: #fff;
+}
+
+.navbar-brand h1.site-title, p.site-title{
+    font-size: 25px;
+}
+
+.product-asset button {
+    background: url(assets/img/icon.png) no-repeat scroll 0 14px;
+}
+
+.slider-inner-box h1 {
+    text-transform: uppercase;
+}
+
+.top-info{
+  background-color: #00c9d0;
+}
+
+/* Product Section */
+
+
+.product-box,.woocommerce ul.products li {
+    background: #fff;
+    box-shadow: 0 0 10px 3px #dfdfdf;
+    border-radius: 10px;
+    padding: 15px !important;
+    border: solid 1px #ddd;
+}
+.product-box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.product-box p a{
+    color: #1d1d1d;
+}
+h5.price {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.featured-review__stars .fas{
+    color: #ffc107;
+}
+.product-box .star-rating {
+  overflow: hidden;
+  position: relative;
+  height: 1em;
+  line-height: 1;
+  font-size: 1em;
+  width: 5.4em;
+  font-family: star;
+  color: #fdce38;
+}
+.product-box .star-rating::before {
+  content: "\73\73\73\73\73";
+  color: #d3ced2;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.product-box .star-rating span::before {
+  content: "\53\53\53\53\53";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.product-box .star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.product-box .star-rating {
+  display: inline-block;
+  margin-top: 5px;
+}
+span.onsale {
+    top: 16px;
+    background: #1d1d1d;
+    padding: 5px 10px;
+    left: 31px;
+}
+#new-products hr {
+    width: 8%;
+    border-top: 2px solid #00c9d0;
+}
+
+@media screen and (max-width: 1000px){
+    .sidenav {
+        background: #00c9d0;
+    }
+    .slider-inner-box{
+        text-align: center;
+    }
+    .serv-bg-box{
+      margin-top: 0px;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1199px){
+  .slider-inner-box {
+    top: 40%;
+  }
+}
